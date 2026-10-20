@@ -1,0 +1,17 @@
+# Additional dependencies
+
+# Optimizers and nonlinear solvers used directly by the notebooks:
+#   optax.contrib.momo_adam  -> adaptive optimizer with a known lower loss bound
+#   optimistix.Newton        -> local Newton solve of the consistency equation
+optax>=0.2.4
+optimistix>=0.1.0
+
+# Interactive 3D mesh preview inside the notebooks. The "jupyter" extra brings
+# in the trame stack required by plotter.show(jupyter_backend="html").
+pyvista[jupyter]>=0.44
+
+# Notebook front end
+jupyterlab>=4
+
+# Process RSS sampling for the checkpoint benchmark
+psutil
