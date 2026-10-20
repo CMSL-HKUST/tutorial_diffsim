@@ -1,6 +1,6 @@
 # Differentiable Simulation Tutorials
 
-[![Python](https://img.shields.io/badge/python-3.11%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/) [![JAX](https://img.shields.io/badge/JAX-9B59B6)](https://github.com/jax-ml/jax) [![JAX-FEM](https://img.shields.io/badge/JAX--FEM-0.0.12-1f77b4)](https://github.com/deepmodeling/jax-fem) [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)](https://jupyter.org/)
+[![Python](https://img.shields.io/badge/python-3.13-3776AB?logo=python&logoColor=white)](https://www.python.org/) [![JAX](https://img.shields.io/badge/JAX-9B59B6)](https://github.com/jax-ml/jax) [![JAX-FEM](https://img.shields.io/badge/JAX--FEM-0.0.12-1f77b4)](https://github.com/deepmodeling/jax-fem) [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)](https://jupyter.org/)
 
 Companion code for the review paper *A Review of Differentiable Programming in Computational Mechanics*. The two notebooks illustrate the two common ways of differentiable programming: explicit differentiation through an explicit time-stepping recurrence, and implicit differentiation of an implicitly defined equilibrium. Both implementations are written in [JAX](https://github.com/jax-ml/jax), with the FEA support from [JAX-FEM](https://github.com/deepmodeling/jax-fem).
 
